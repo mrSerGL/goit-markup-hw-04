@@ -25,6 +25,7 @@ html {
   --background-body: #fff;
   --background-section-one: #fff;
   --background-section-two: #f5f4fa;
+  --background-color-hero: #c4c4c4;
   --background-footer: #2f303a;
 
   /* ===== logo color ===== */
@@ -32,6 +33,11 @@ html {
   --logo-color-one: #2196f3;
   --logo-color-two: #000000;
   --logo-color-three: #fff;
+
+  /* ===== hero gradient colors ===== */
+
+  --hero-gradient-color-one: rgba(47, 48, 58, 0.4);
+  --hero-gradient-color-two: rgba(47, 48, 58, 0.4);
 }
 
 /* ===== BASE STYLES ===== */
@@ -232,9 +238,29 @@ img {
 /* ===== hero ===== */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--background-color-hero);
   text-align: center;
   padding: 200px 0;
+}
+
+.hero-overlay {
+  max-width: 1600px;
+  min-width: 1200px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero.jpg);
+
+  /* background-image: rgba(47, 48, 58, 0.4); */
+
+  /* background-image: url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; */
+
+  outline: 1px solid black;
 }
 
 .hero-header {
