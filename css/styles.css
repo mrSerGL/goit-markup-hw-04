@@ -253,17 +253,16 @@ body {
   margin-left: auto;
   margin-right: auto;
 
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  background-image: linear-gradient(
+      to right,
+      var(--hero-gradient-color-one),
+      var(--hero-gradient-color-one)
+    ),
     url(../images/hero.jpg);
 
-  /* background-image: rgba(47, 48, 58, 0.4); */
-
-  /* background-image: url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain; */
-
-  /* outline: 1px solid black; */
+  background-size: contain;
 }
 
 .hero-header {
