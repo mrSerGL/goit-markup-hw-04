@@ -203,12 +203,10 @@ body {
 .mail-tel {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 .mail-tel-link {
-  display: flex;
-  align-items: center;
-
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -220,7 +218,9 @@ body {
 
 .mail-header,
 .phone-header {
-  display: block;
+  display: inline-flex;
+  align-items: center;
+
   padding-top: 10px;
   padding-bottom: 10px;
 
@@ -245,10 +245,22 @@ body {
 
   background-image: url(/images/envelope.svg);
   background-repeat: no-repeat;
-  /* background-position: center; */
   background-size: contain;
+  background-position: center;
+}
 
-  /* outline: 1px solid black; */
+.phone-header::before {
+  content: '';
+  display: inline-block;
+
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+
+  background-image: url(/images/smartphone.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 /* ===== MAIN ===== */
@@ -263,8 +275,8 @@ body {
 }
 
 .hero-overlay {
-  max-width: 1600px;
-  min-width: 1200px;
+  /* max-width: 1600px; */
+  width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
