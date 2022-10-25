@@ -357,15 +357,27 @@ body {
   height: 120px;
 
   border-radius: 4px;
-
   margin-bottom: 30px;
 
   background-color: var(--background-section-two);
 
-  background-image: url(../images/antenna.svg);
-
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.features-picture.features-picture-one {
+  background-image: url(../images/antenna.svg);
+}
+.features-picture.features-picture-two {
+  background-image: url(../images/clock.svg);
+}
+
+.features-picture.features-picture-three {
+  background-image: url(../images/diagram.svg);
+}
+
+.features-picture.features-picture-four {
+  background-image: url(../images/astronaut.svg);
 }
 
 .features-item-title {
