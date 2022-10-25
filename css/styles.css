@@ -352,6 +352,23 @@ body {
   margin-right: 30px;
 }
 
+.features-picture {
+  width: 269px;
+  height: 120px;
+
+  border-radius: 4px;
+
+  padding: 25px 100 px;
+  margin-bottom: 30px;
+
+  background-color: var(--background-section-two);
+
+  outline: 1px solid green;
+  background-image: url(/images/antenna.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .features-item-title {
   font-weight: 700;
   font-size: 14px;
