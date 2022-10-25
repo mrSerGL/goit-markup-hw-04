@@ -358,13 +358,12 @@ body {
 
   border-radius: 4px;
 
-  padding: 25px 100 px;
   margin-bottom: 30px;
 
   background-color: var(--background-section-two);
 
-  outline: 1px solid green;
-  background-image: url(/images/antenna.svg);
+  background-image: url(../images/antenna.svg), var(--background-section-two);
+
   background-repeat: no-repeat;
   background-position: center;
 }
