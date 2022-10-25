@@ -128,7 +128,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 
-  /* outline: 2px solid tomato; */
+  /* outline: 2px solid green; */
   /* outline-offset: -2 px; */
 }
 
@@ -137,9 +137,6 @@ body {
 }
 
 /* ====== HEADER ====== */
-
-.header {
-}
 
 .header-content {
   display: flex;
@@ -209,6 +206,9 @@ body {
 }
 
 .mail-tel-link {
+  display: flex;
+  align-items: center;
+
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -233,6 +233,22 @@ body {
 .phone-header:hover,
 .phone-header:focus {
   color: var(--accent-text-color);
+}
+
+.mail-header::before {
+  content: '';
+  display: inline-block;
+
+  width: 16px;
+  height: 10px;
+  margin-right: 10px;
+
+  background-image: url(/images/envelope.svg);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: contain;
+
+  /* outline: 1px solid black; */
 }
 
 /* ===== MAIN ===== */
