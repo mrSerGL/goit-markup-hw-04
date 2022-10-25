@@ -243,7 +243,7 @@ body {
   height: 10px;
   margin-right: 10px;
 
-  background-image: url(/images/envelope.svg);
+  background-image: url(../images/envelope.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -257,7 +257,7 @@ body {
   height: 16px;
   margin-right: 10px;
 
-  background-image: url(/images/smartphone.svg);
+  background-image: url(../images/smartphone.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -362,7 +362,7 @@ body {
 
   background-color: var(--background-section-two);
 
-  background-image: url(./images/antenna.svg);
+  background-image: url(../images/antenna.svg);
 
   background-repeat: no-repeat;
   background-position: center;
