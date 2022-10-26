@@ -347,12 +347,10 @@ body {
   width: calc((100% - 90px) / 4);
 }
 
-.features-list-item:not(:nth-child(4n)) {
-  margin-right: 30px;
-}
+.features-list-item::before {
+  content: '';
+  display: block;
 
-.features-picture {
-  width: 269px;
   height: 120px;
 
   border-radius: 4px;
@@ -362,21 +360,28 @@ body {
 
   background-repeat: no-repeat;
   background-position: center;
+
+  outline: 1px solid green;
 }
 
-.features-picture.features-picture-one {
+.features-list-item:nth-child(1).features-list-item::before {
   background-image: url(../images/antenna.svg);
 }
-.features-picture.features-picture-two {
+
+.features-list-item:nth-child(2).features-list-item::before {
   background-image: url(../images/clock.svg);
 }
 
-.features-picture.features-picture-three {
+.features-list-item:nth-child(3).features-list-item::before {
   background-image: url(../images/diagram.svg);
 }
 
-.features-picture.features-picture-four {
+.features-list-item:nth-child(4).features-list-item::before {
   background-image: url(../images/astronaut.svg);
+}
+
+.features-list-item:not(:nth-child(4n)) {
+  margin-right: 30px;
 }
 
 .features-item-title {
@@ -492,6 +497,8 @@ body {
   display: block;
   width: 44px;
   height: 44px;
+  background-image: url(/images/instagram.svg);
+  background-position: center;
 }
 
 .team-social-item:not(:last-child) {
