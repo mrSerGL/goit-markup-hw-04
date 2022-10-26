@@ -360,23 +360,22 @@ body {
 
   background-repeat: no-repeat;
   background-position: center;
-
-  outline: 1px solid green;
+  background-size: contain;
 }
 
-.features-list-item:nth-child(1).features-list-item::before {
+.features-list-item:nth-child(1)::before {
   background-image: url(../images/antenna.svg);
 }
 
-.features-list-item:nth-child(2).features-list-item::before {
+.features-list-item:nth-child(2)::before {
   background-image: url(../images/clock.svg);
 }
 
-.features-list-item:nth-child(3).features-list-item::before {
+.features-list-item:nth-child(3)::before {
   background-image: url(../images/diagram.svg);
 }
 
-.features-list-item:nth-child(4).features-list-item::before {
+.features-list-item:nth-child(4)::before {
   background-image: url(../images/astronaut.svg);
 }
 
