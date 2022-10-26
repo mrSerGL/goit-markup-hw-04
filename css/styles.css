@@ -504,6 +504,7 @@ body {
 }
 
 .team-social-item {
+  margin: 0;
 }
 
 .team-social-item:not(:last-child) {
@@ -514,7 +515,21 @@ body {
   display: inline-block;
   width: 44px;
   height: 44px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.team-social-link.instagram-link {
   background-image: url(../images/instagram.svg);
+}
+.team-social-link.twitter-link {
+  background-image: url(../images/twitter.svg);
+}
+.team-social-link.facebook-link {
+  background-image: url(../images/facebook.svg);
+}
+.team-social-link.linkedin-link {
+  background-image: url(../images/linkedin.svg);
 }
 
 /* ========== FUTER ==========*/
