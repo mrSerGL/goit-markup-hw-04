@@ -38,6 +38,10 @@ html {
 
   --hero-gradient-color-one: rgba(47, 48, 58, 0.4);
   --hero-gradient-color-two: rgba(47, 48, 58, 0.4);
+
+  /* ===== fil svg icons color ===== */
+
+  --fill-svg-icons: #afb1b8;
 }
 
 /* ===== BASE STYLES ===== */
@@ -517,7 +521,8 @@ body {
   height: 44px;
   padding: 12px 0;
 
-  fill: #afb1b8;
+  fill: var(--fill-svg-icons);
+
   /* background-repeat: no-repeat;
   background-position: center;
   background-size: 20px; */
@@ -525,7 +530,8 @@ body {
   border-radius: 50%;
 }
 
-.team-social-link:hover {
+.team-social-link:hover,
+.team-social-link:focus {
   background-color: var(--accent-text-color);
   fill: #fff;
 }
@@ -570,7 +576,18 @@ body {
   width: 170px;
   height: 92px;
 
-  outline: 1px solid blue;
+  padding: 16px 32px;
+
+  fill: var(--fill-svg-icons);
+
+  border: 1px solid var(--fill-svg-icons);
+  border-radius: 4px;
+}
+
+.clients-logos-logo:hover,
+.clients-logos-logo:focus {
+  fill: var(--accent-text-color);
+  border: 1px solid var(--accent-text-color);
 }
 
 /* ========== FOOTER ==========*/
