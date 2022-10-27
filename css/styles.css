@@ -368,7 +368,7 @@ body {
 } */
 
 .features-picture-one::before {
-  background-image: url(../images/antenna.svg);
+  background-image: url(../images/features/antenna.svg);
 }
 
 /* .features-list-item:nth-child(2)::before {
@@ -376,7 +376,7 @@ body {
 } */
 
 .features-picture-two::before {
-  background-image: url(../images/clock.svg);
+  background-image: url(../images/features/clock.svg);
 }
 
 /* .features-list-item:nth-child(3)::before {
@@ -384,7 +384,7 @@ body {
 } */
 
 .features-picture-three::before {
-  background-image: url(../images/diagram.svg);
+  background-image: url(../images/features/diagram.svg);
 }
 
 /* .features-list-item:nth-child(4)::before {
@@ -392,7 +392,7 @@ body {
 } */
 
 .features-picture-four::before {
-  background-image: url(../images/astronaut.svg);
+  background-image: url(../images/features/astronaut.svg);
 }
 
 .features-list-item:not(:nth-child(4n)) {
