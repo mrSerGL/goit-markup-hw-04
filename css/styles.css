@@ -557,17 +557,20 @@ body {
 }
 
 .clients-logos-item {
-  display: inline-block;
   margin: 0;
+}
+
+.clients-logos-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-logos-logo {
+  display: inline-block;
 
   width: 170px;
   height: 92px;
 
   outline: 1px solid blue;
-}
-
-.clients-logos-item:not(:last-child) {
-  margin-right: 30px;
 }
 
 /* ========== FOOTER ==========*/
