@@ -516,13 +516,18 @@ body {
   width: 44px;
   height: 44px;
   padding: 12px 0;
+
+  fill: #afb1b8;
   /* background-repeat: no-repeat;
   background-position: center;
   background-size: 20px; */
 
   border-radius: 50%;
-  outline: 1px solid blue;
-  outline-offset: -1 px;
+}
+
+.team-social-link:hover {
+  background-color: var(--accent-text-color);
+  fill: #fff;
 }
 
 /* ===== Иконки соцсетей сделані как фон =====
