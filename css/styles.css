@@ -560,6 +560,7 @@ body {
 .clients-logos-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .clients-logos-item {
