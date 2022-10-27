@@ -520,16 +520,16 @@ body {
 }
 
 .team-social-link.instagram-link {
-  background-image: url(../images/instagram.svg);
+  background-image: url(../images/soc-networks/instagram.svg);
 }
 .team-social-link.twitter-link {
-  background-image: url(../images/twitter.svg);
+  background-image: url(../images/soc-networks/twitter.svg);
 }
 .team-social-link.facebook-link {
-  background-image: url(../images/facebook.svg);
+  background-image: url(../images/soc-networks/facebook.svg);
 }
 .team-social-link.linkedin-link {
-  background-image: url(../images/linkedin.svg);
+  background-image: url(../images/soc-networks/linkedin.svg);
 }
 
 /* ========== FUTER ==========*/
