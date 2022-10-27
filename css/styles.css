@@ -545,7 +545,32 @@ body {
   background-image: url(../images/soc-networks/linkedin.svg);
 } */
 
-/* ========== FUTER ==========*/
+/* ===== clients section ===== */
+
+.section-clients-title {
+  margin-bottom: 51px;
+}
+
+.clients-logos-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clients-logos-item {
+  display: inline-block;
+  margin: 0;
+
+  width: 170px;
+  height: 92px;
+
+  outline: 1px solid blue;
+}
+
+.clients-logos-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* ========== FOOTER ==========*/
 
 /* ===== footer ===== */
 .footer {
