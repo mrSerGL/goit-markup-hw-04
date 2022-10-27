@@ -515,9 +515,17 @@ body {
   display: inline-block;
   width: 44px;
   height: 44px;
+  padding: 12px 0;
+  /* background-repeat: no-repeat;
   background-position: center;
-  background-color: #2196f3;
+  background-size: 20px; */
+
+  border-radius: 50%;
+  outline: 1px solid blue;
+  outline-offset: -1 px;
 }
+
+/* ===== Иконки соцсетей сделані как фон =====
 
 .team-social-link.instagram-link {
   background-image: url(../images/soc-networks/instagram.svg);
@@ -530,7 +538,7 @@ body {
 }
 .team-social-link.linkedin-link {
   background-image: url(../images/soc-networks/linkedin.svg);
-}
+} */
 
 /* ========== FUTER ==========*/
 
