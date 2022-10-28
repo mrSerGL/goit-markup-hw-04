@@ -343,13 +343,13 @@ body {
 /* ====== features ===== */
 
 .features-container {
-  width: calc((100% - 90px) / 4);
   outline: 1 px solid green;
 }
 
 .features-list {
   display: flex;
   flex-wrap: wrap;
+  outline: 1 px solid red;
 }
 
 .features-list-item {
@@ -358,7 +358,7 @@ body {
 
 .features-item-link {
   display: block;
-  /* width: calc((100% - 90px) / 4); */
+  width: calc((100% - 90px) / 4);
 
   background-color: var(--background-section-two);
 
@@ -376,9 +376,9 @@ body {
   margin-right: 30px;
 } */
 
-.features-container {
+/* .features-container {
   margin-right: 30px;
-}
+} */
 
 /* === start before === */
 
