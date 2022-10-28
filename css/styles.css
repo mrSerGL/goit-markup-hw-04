@@ -760,6 +760,17 @@ body {
   margin-bottom: 0;
 }
 
+.portfolio-item {
+  display: block;
+}
+
+.portfolio-item:hover {
+  /* border: 1px solid #eeeeee; */
+
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 /* 
 .portfolio-container:not(:nth-child(3n)) {
   margin-right: 30px;
