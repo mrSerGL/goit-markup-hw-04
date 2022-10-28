@@ -676,6 +676,8 @@ body {
 
 .footer-social-list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer-social-item {
