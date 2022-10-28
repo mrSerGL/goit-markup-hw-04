@@ -42,6 +42,7 @@ html {
   /* ===== fil svg icons color ===== */
 
   --fill-svg-icons: #afb1b8;
+  --fill-footer-socials: #fff;
 }
 
 /* ===== BASE STYLES ===== */
@@ -600,6 +601,22 @@ body {
   padding-bottom: 60px;
 }
 
+.footer-parts {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-part-one,
+.footer-part-two {
+  display: block;
+}
+
+.footer-part-one {
+  margin-right: 70px;
+}
+
+/* === footer part one === */
+
 .logo-footer-one {
   color: var(--logo-color-one);
 }
@@ -639,6 +656,51 @@ body {
 .address-item-two:focus,
 .address-item-three:focus {
   color: #ffffff;
+}
+
+/* === footer part two === */
+
+.footer-social-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  margin-bottom: 20px;
+}
+
+.footer-social-list {
+  display: flex;
+}
+
+.footer-social-item {
+  margin: 0;
+}
+
+.footer-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-social-link {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  padding: 12px 0;
+
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+
+  fill: var(--fill-footer-socials);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-text-color);
 }
 
 /* ============================= PORTFOLIO ======================================================== */
