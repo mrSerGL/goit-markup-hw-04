@@ -133,8 +133,8 @@ body {
   margin-left: auto;
   margin-right: auto;
 
-  outline: 2px solid green;
-  outline-offset: -2 px;
+  /* outline: 2px solid green;
+  outline-offset: -2 px; */
 }
 
 .nav-link.curent {
@@ -370,23 +370,9 @@ body {
   border-radius: 4px;
 
   margin-bottom: 30px;
-
-  outline: 1px solid red;
 }
 
-.features-item-link {
-}
-
-/* .features-item-picture {
-  height: 120px;
-  background-color: var(--background-section-two);
-} */
-
-/* .features-container {
-  margin-right: 30px;
-} */
-
-/* === start before === */
+/* === before start === */
 
 /* .features-list-item::before {
   content: '';
