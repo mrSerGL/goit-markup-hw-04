@@ -510,10 +510,19 @@ body {
 .team-social-list {
   display: flex;
   flex-wrap: wrap;
+  align-content: center;
   justify-content: center;
 }
 
 .team-social-item {
+  display: block;
+
+  width: 44px;
+  height: 44px;
+
+  color: var(--fill-svg-icons);
+
+  border-radius: 50%;
   margin: 0;
 }
 
@@ -522,25 +531,22 @@ body {
 }
 
 .team-social-link {
-  display: inline-block;
-  width: 44px;
-  height: 44px;
-  padding: 12px 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 
-  fill: var(--fill-svg-icons);
+  fill: currentColor;
+}
 
-  /* background-repeat: no-repeat;
+.team-social-item:hover,
+.team-social-item:focus {
+  background-color: var(--accent-text-color);
+  color: #fff;
+}
+
+/* background-repeat: no-repeat;
   background-position: center;
   background-size: 20px; */
-
-  border-radius: 50%;
-}
-
-.team-social-link:hover,
-.team-social-link:focus {
-  background-color: var(--accent-text-color);
-  fill: #fff;
-}
 
 /* ===== Иконки соцсетей сделані как фон =====
 
