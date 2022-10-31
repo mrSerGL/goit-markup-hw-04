@@ -246,6 +246,7 @@ body {
 .phone-header:hover,
 .phone-header:focus {
   color: var(--accent-text-color);
+  fill: var(--accent-text-color);
 }
 
 /* .mail-header::before {
