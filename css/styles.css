@@ -541,11 +541,11 @@ body {
 .team-social-icon {
   display: flex;
 
-  width: 44px;
-  height: 44px;
-
   align-items: center;
   justify-content: center;
+
+  width: 44px;
+  height: 44px;
 }
 
 .team-social-link {
@@ -586,7 +586,6 @@ body {
 .clients-logos-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .clients-logos-item {
