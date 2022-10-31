@@ -233,6 +233,14 @@ body {
   text-decoration: none;
 }
 
+.mail-header-email {
+  margin-left: 2px;
+}
+
+.mail-header-phone {
+  margin-left: 10px;
+}
+
 .mail-header:hover,
 .mail-header:focus,
 .phone-header:hover,
@@ -240,7 +248,7 @@ body {
   color: var(--accent-text-color);
 }
 
-.mail-header::before {
+/* .mail-header::before {
   content: '';
   display: inline-block;
 
@@ -266,7 +274,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-}
+} */
 
 /* ===== MAIN ===== */
 
