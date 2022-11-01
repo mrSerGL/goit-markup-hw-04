@@ -576,33 +576,34 @@ body {
 .clients-logos-list {
   display: flex;
   flex-wrap: wrap;
-}
 
-.clients-logos-item {
-  margin: 0;
+  align-items: center;
 }
 
 .clients-logos-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients-logos-logo {
-  display: inline-block;
+.clients-logos-link {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
 
   width: 170px;
   height: 92px;
-
-  padding: 16px 32px;
-
-  fill: var(--fill-svg-icons);
 
   border: 1px solid var(--fill-svg-icons);
   border-radius: 4px;
 }
 
-.clients-logos-logo:hover,
-.clients-logos-logo:focus {
-  fill: var(--accent-text-color);
+.clients-logos-logo {
+  fill: currentColor;
+}
+
+.clients-logos-link:hover,
+.clients-logos-link:focus {
+  color: var(--accent-text-color);
   border: 1px solid var(--accent-text-color);
 }
 
