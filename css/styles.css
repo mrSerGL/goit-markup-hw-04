@@ -221,7 +221,7 @@ body {
 
 .mail-header-link,
 .phone-header-link {
-  display: inline-flex;
+  display: flex;
   align-items: center;
 
   font-weight: 500;
@@ -242,7 +242,6 @@ body {
 .phone-header-link:hover,
 .phone-header-link:focus {
   color: var(--accent-text-color);
-  fill: var(--accent-text-color);
 }
 
 /* .mail-header::before {
