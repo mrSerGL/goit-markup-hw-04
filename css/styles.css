@@ -277,6 +277,8 @@ body {
 /* ===== hero ===== */
 
 .hero {
+  width: 1600px;
+  height: 600px;
   background-color: var(--background-color-hero);
   text-align: center;
   padding: 200px 0;
@@ -596,7 +598,7 @@ body {
 
   color: var(--fill-svg-icons);
 
-  border: 1px solid var(--fill-svg-icons);
+  border: 1px solid var(currentColor);
   border-radius: 4px;
 }
 
@@ -614,6 +616,9 @@ body {
 
 /* ===== footer ===== */
 .footer {
+  width: 1600px;
+  height: 252px;
+  margin: auto;
   background-color: var(--background-footer);
   padding-top: 60px;
   padding-bottom: 60px;
