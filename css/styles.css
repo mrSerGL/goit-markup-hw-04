@@ -205,46 +205,42 @@ body {
 
 /* ===== header mail telephone ===== */
 
-.mail-tel {
+.mail-tel-list {
   display: flex;
   margin-left: auto;
   align-items: center;
 }
 
-.mail-tel-link {
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+.mail-tel-item {
+  margin: 0;
 }
 
-.mail-tel .mail-tel-link:not(:last-child) {
+.mail-tel-list .mail-tel-item:not(:last-child) {
   margin-right: 50px;
 }
 
-.mail-header,
-.phone-header {
+.mail-header-link,
+.phone-header-link {
   display: inline-flex;
   align-items: center;
 
-  padding-top: 10px;
-  padding-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 
   color: var(--primary-text-color);
   text-decoration: none;
 }
 
-.mail-header-email {
-  margin-left: 2px;
+.header-tel-icon {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
-.mail-header-phone {
-  margin-left: 10px;
-}
-
-.mail-header:hover,
-.mail-header:focus,
-.phone-header:hover,
-.phone-header:focus {
+.mail-header-link:hover,
+.mail-header-link:focus,
+.phone-header-link:hover,
+.phone-header-link:focus {
   color: var(--accent-text-color);
   fill: var(--accent-text-color);
 }
