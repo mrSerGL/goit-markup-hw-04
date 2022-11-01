@@ -707,10 +707,6 @@ body {
   justify-content: center;
 }
 
-.footer-social-item {
-  margin: 0;
-}
-
 .footer-social-item:not(:last-child) {
   margin-right: 10px;
 }
@@ -726,12 +722,10 @@ body {
 
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-
-  /* color: var(--fill-footer-socials); */
 }
 
 .footer-social-icon {
-  fill: #fff;
+  fill: var(--fill-footer-socials);
 }
 
 .footer-social-link:hover,
