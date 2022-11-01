@@ -298,7 +298,7 @@ body {
 
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .hero-header {
@@ -511,6 +511,8 @@ body {
   margin-bottom: 16px;
 }
 
+/* === soc netw === */
+
 .team-social-list {
   display: flex;
   flex-wrap: wrap;
@@ -518,23 +520,11 @@ body {
   justify-content: center;
 }
 
-.team-social-item {
-  display: block;
-
-  width: 44px;
-  height: 44px;
-
-  color: var(--fill-svg-icons);
-
-  border-radius: 50%;
-  margin: 0;
-}
-
 .team-social-item:not(:last-child) {
   margin-right: 10px;
 }
 
-.team-social-icon {
+.team-social-link {
   display: flex;
 
   align-items: center;
@@ -542,14 +532,18 @@ body {
 
   width: 44px;
   height: 44px;
+
+  color: var(--fill-svg-icons);
+
+  border-radius: 50%;
 }
 
-.team-social-link {
+.team-social-svg {
   fill: currentColor;
 }
 
-.team-social-item:hover,
-.team-social-item:focus {
+.team-social-link:hover,
+.team-social-link:focus {
   background-color: var(--accent-text-color);
   color: #fff;
 }
