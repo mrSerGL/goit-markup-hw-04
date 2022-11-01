@@ -578,6 +578,7 @@ body {
   flex-wrap: wrap;
 
   align-items: center;
+  justify-content: center;
 }
 
 .clients-logos-item:not(:last-child) {
@@ -592,6 +593,8 @@ body {
 
   width: 170px;
   height: 92px;
+
+  color: var(--fill-svg-icons);
 
   border: 1px solid var(--fill-svg-icons);
   border-radius: 4px;
