@@ -618,9 +618,6 @@ body {
 
 /* ===== footer ===== */
 .footer {
-  /* width: 1600px; */
-  /* height: 252px;
-  margin: auto; */
   background-color: var(--background-footer);
   padding-top: 60px;
   padding-bottom: 60px;
