@@ -600,7 +600,7 @@ body {
 
   color: var(--fill-svg-icons);
 
-  border: 1px solid var(currentColor);
+  border: 1px solid currentColor;
   border-radius: 4px;
 }
 
@@ -618,9 +618,9 @@ body {
 
 /* ===== footer ===== */
 .footer {
-  width: 1600px;
-  height: 252px;
-  margin: auto;
+  /* width: 1600px; */
+  /* height: 252px;
+  margin: auto; */
   background-color: var(--background-footer);
   padding-top: 60px;
   padding-bottom: 60px;
